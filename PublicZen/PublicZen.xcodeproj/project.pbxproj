@@ -14,10 +14,10 @@
 		506E0AB114AB09AF003E314E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 506E0AB014AB09AF003E314E /* main.m */; };
 		506E0AB414AB09AF003E314E /* PublicZenAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 506E0AB314AB09AF003E314E /* PublicZenAppDelegate.m */; };
 		506E0AB714AB09AF003E314E /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 506E0AB514AB09AF003E314E /* MainWindow.xib */; };
-		506E0ABA14AB09AF003E314E /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 506E0AB914AB09AF003E314E /* FirstViewController.m */; };
-		506E0ABD14AB09AF003E314E /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 506E0ABC14AB09AF003E314E /* SecondViewController.m */; };
-		506E0AC014AB09AF003E314E /* FirstView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 506E0ABE14AB09AF003E314E /* FirstView.xib */; };
-		506E0AC314AB09AF003E314E /* SecondView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 506E0AC114AB09AF003E314E /* SecondView.xib */; };
+		506E0ABA14AB09AF003E314E /* MeditationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 506E0AB914AB09AF003E314E /* MeditationViewController.m */; };
+		506E0ABD14AB09AF003E314E /* RockGardenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 506E0ABC14AB09AF003E314E /* RockGardenViewController.m */; };
+		506E0AC014AB09AF003E314E /* MeditationView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 506E0ABE14AB09AF003E314E /* MeditationView.xib */; };
+		506E0AC314AB09AF003E314E /* RockGardenView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 506E0AC114AB09AF003E314E /* RockGardenView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,12 +32,12 @@
 		506E0AB214AB09AF003E314E /* PublicZenAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PublicZenAppDelegate.h; sourceTree = "<group>"; };
 		506E0AB314AB09AF003E314E /* PublicZenAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PublicZenAppDelegate.m; sourceTree = "<group>"; };
 		506E0AB614AB09AF003E314E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
-		506E0AB814AB09AF003E314E /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
-		506E0AB914AB09AF003E314E /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
-		506E0ABB14AB09AF003E314E /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
-		506E0ABC14AB09AF003E314E /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
-		506E0ABF14AB09AF003E314E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FirstView.xib; sourceTree = "<group>"; };
-		506E0AC214AB09AF003E314E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SecondView.xib; sourceTree = "<group>"; };
+		506E0AB814AB09AF003E314E /* MeditationViewController.h */ = {isa = PBXFileReference; path = MeditationViewController.h; sourceTree = "<group>"; };
+		506E0AB914AB09AF003E314E /* MeditationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MeditationViewController.m; sourceTree = "<group>"; };
+		506E0ABB14AB09AF003E314E /* RockGardenViewController.h */ = {isa = PBXFileReference; path = RockGardenViewController.h; sourceTree = "<group>"; };
+		506E0ABC14AB09AF003E314E /* RockGardenViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RockGardenViewController.m; sourceTree = "<group>"; };
+		506E0ABF14AB09AF003E314E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MeditationView.xib; sourceTree = "<group>"; };
+		506E0AC214AB09AF003E314E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/RockGardenView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,10 +107,10 @@
 			children = (
 				506E0AB214AB09AF003E314E /* PublicZenAppDelegate.h */,
 				506E0AB314AB09AF003E314E /* PublicZenAppDelegate.m */,
-				506E0AB814AB09AF003E314E /* FirstViewController.h */,
-				506E0AB914AB09AF003E314E /* FirstViewController.m */,
-				506E0ABB14AB09AF003E314E /* SecondViewController.h */,
-				506E0ABC14AB09AF003E314E /* SecondViewController.m */,
+				506E0AB814AB09AF003E314E /* MeditationViewController.h */,
+				506E0AB914AB09AF003E314E /* MeditationViewController.m */,
+				506E0ABB14AB09AF003E314E /* RockGardenViewController.h */,
+				506E0ABC14AB09AF003E314E /* RockGardenViewController.m */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -143,8 +143,8 @@
 			isa = PBXGroup;
 			children = (
 				506E0AB514AB09AF003E314E /* MainWindow.xib */,
-				506E0ABE14AB09AF003E314E /* FirstView.xib */,
-				506E0AC114AB09AF003E314E /* SecondView.xib */,
+				506E0ABE14AB09AF003E314E /* MeditationView.xib */,
+				506E0AC114AB09AF003E314E /* RockGardenView.xib */,
 			);
 			name = xib;
 			sourceTree = "<group>";
@@ -201,8 +201,8 @@
 			files = (
 				506E0AAE14AB09AF003E314E /* InfoPlist.strings in Resources */,
 				506E0AB714AB09AF003E314E /* MainWindow.xib in Resources */,
-				506E0AC014AB09AF003E314E /* FirstView.xib in Resources */,
-				506E0AC314AB09AF003E314E /* SecondView.xib in Resources */,
+				506E0AC014AB09AF003E314E /* MeditationView.xib in Resources */,
+				506E0AC314AB09AF003E314E /* RockGardenView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -215,8 +215,8 @@
 			files = (
 				506E0AB114AB09AF003E314E /* main.m in Sources */,
 				506E0AB414AB09AF003E314E /* PublicZenAppDelegate.m in Sources */,
-				506E0ABA14AB09AF003E314E /* FirstViewController.m in Sources */,
-				506E0ABD14AB09AF003E314E /* SecondViewController.m in Sources */,
+				506E0ABA14AB09AF003E314E /* MeditationViewController.m in Sources */,
+				506E0ABD14AB09AF003E314E /* RockGardenViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -239,20 +239,20 @@
 			name = MainWindow.xib;
 			sourceTree = "<group>";
 		};
-		506E0ABE14AB09AF003E314E /* FirstView.xib */ = {
+		506E0ABE14AB09AF003E314E /* MeditationView.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
 				506E0ABF14AB09AF003E314E /* en */,
 			);
-			name = FirstView.xib;
+			name = MeditationView.xib;
 			sourceTree = "<group>";
 		};
-		506E0AC114AB09AF003E314E /* SecondView.xib */ = {
+		506E0AC114AB09AF003E314E /* RockGardenView.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
 				506E0AC214AB09AF003E314E /* en */,
 			);
-			name = SecondView.xib;
+			name = RockGardenView.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -337,6 +337,7 @@
 				506E0AC814AB09AF003E314E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
