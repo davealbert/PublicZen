@@ -8,9 +8,19 @@
 
 #import <UIKit/UIKit.h>
 
+enum {
+    kTimerStopped = 0,
+    kTimerStarted = 1
+};
 
 @interface MeditationViewController : UIViewController {
 
+    UILabel *timerLabel;
+    UIButton *startStopButton;
 }
+@property (nonatomic, retain) IBOutlet UILabel *timerLabel;
+@property (nonatomic, retain) IBOutlet UIButton *startStopButton;
+
+- (IBAction)startStopTimer:(id)sender;
 
 @end

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		506A31BC14AB2F2C0024ED42 /* medBG.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 506A31BB14AB2F2C0024ED42 /* medBG.jpg */; };
 		506E0AA414AB09AF003E314E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 506E0AA314AB09AF003E314E /* UIKit.framework */; };
 		506E0AA614AB09AF003E314E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 506E0AA514AB09AF003E314E /* Foundation.framework */; };
 		506E0AA814AB09AF003E314E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 506E0AA714AB09AF003E314E /* CoreGraphics.framework */; };
@@ -22,9 +23,12 @@
 		506E0B0414AB1A00003E314E /* QuoteView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 506E0B0214AB1A00003E314E /* QuoteView.xib */; };
 		506E0B0814AB1B41003E314E /* MindfulnessViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 506E0B0614AB1B41003E314E /* MindfulnessViewController.m */; };
 		506E0B0914AB1B41003E314E /* MindfulnessView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 506E0B0714AB1B41003E314E /* MindfulnessView.xib */; };
+		506E0B1214AB2AE4003E314E /* stop.png in Resources */ = {isa = PBXBuildFile; fileRef = 506E0B1014AB2AE4003E314E /* stop.png */; };
+		506E0B1314AB2AE4003E314E /* start.png in Resources */ = {isa = PBXBuildFile; fileRef = 506E0B1114AB2AE4003E314E /* start.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		506A31BB14AB2F2C0024ED42 /* medBG.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = medBG.jpg; sourceTree = "<group>"; };
 		506E0A9F14AB09AF003E314E /* PublicZen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PublicZen.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		506E0AA314AB09AF003E314E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		506E0AA514AB09AF003E314E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -48,6 +52,8 @@
 		506E0B0514AB1B41003E314E /* MindfulnessViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MindfulnessViewController.h; sourceTree = "<group>"; };
 		506E0B0614AB1B41003E314E /* MindfulnessViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MindfulnessViewController.m; sourceTree = "<group>"; };
 		506E0B0714AB1B41003E314E /* MindfulnessView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MindfulnessView.xib; sourceTree = "<group>"; };
+		506E0B1014AB2AE4003E314E /* stop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stop.png; sourceTree = "<group>"; };
+		506E0B1114AB2AE4003E314E /* start.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = start.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -142,6 +148,9 @@
 		506E0ACB14AB09FC003E314E /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				506A31BB14AB2F2C0024ED42 /* medBG.jpg */,
+				506E0B1014AB2AE4003E314E /* stop.png */,
+				506E0B1114AB2AE4003E314E /* start.png */,
 			);
 			name = Images;
 			sourceTree = "<group>";
@@ -221,6 +230,9 @@
 				506E0AC314AB09AF003E314E /* RockGardenView.xib in Resources */,
 				506E0B0414AB1A00003E314E /* QuoteView.xib in Resources */,
 				506E0B0914AB1B41003E314E /* MindfulnessView.xib in Resources */,
+				506E0B1214AB2AE4003E314E /* stop.png in Resources */,
+				506E0B1314AB2AE4003E314E /* start.png in Resources */,
+				506A31BC14AB2F2C0024ED42 /* medBG.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
