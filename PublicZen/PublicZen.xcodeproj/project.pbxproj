@@ -20,6 +20,8 @@
 		506E0AC314AB09AF003E314E /* RockGardenView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 506E0AC114AB09AF003E314E /* RockGardenView.xib */; };
 		506E0B0314AB1A00003E314E /* QuoteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 506E0B0114AB1A00003E314E /* QuoteViewController.m */; };
 		506E0B0414AB1A00003E314E /* QuoteView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 506E0B0214AB1A00003E314E /* QuoteView.xib */; };
+		506E0B0814AB1B41003E314E /* MindfulnessViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 506E0B0614AB1B41003E314E /* MindfulnessViewController.m */; };
+		506E0B0914AB1B41003E314E /* MindfulnessView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 506E0B0714AB1B41003E314E /* MindfulnessView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +45,9 @@
 		506E0B0014AB1A00003E314E /* QuoteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuoteViewController.h; sourceTree = "<group>"; };
 		506E0B0114AB1A00003E314E /* QuoteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuoteViewController.m; sourceTree = "<group>"; };
 		506E0B0214AB1A00003E314E /* QuoteView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QuoteView.xib; sourceTree = "<group>"; };
+		506E0B0514AB1B41003E314E /* MindfulnessViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MindfulnessViewController.h; sourceTree = "<group>"; };
+		506E0B0614AB1B41003E314E /* MindfulnessViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MindfulnessViewController.m; sourceTree = "<group>"; };
+		506E0B0714AB1B41003E314E /* MindfulnessView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MindfulnessView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +123,8 @@
 				506E0ABC14AB09AF003E314E /* RockGardenViewController.m */,
 				506E0B0014AB1A00003E314E /* QuoteViewController.h */,
 				506E0B0114AB1A00003E314E /* QuoteViewController.m */,
+				506E0B0514AB1B41003E314E /* MindfulnessViewController.h */,
+				506E0B0614AB1B41003E314E /* MindfulnessViewController.m */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -153,6 +160,7 @@
 				506E0ABE14AB09AF003E314E /* MeditationView.xib */,
 				506E0AC114AB09AF003E314E /* RockGardenView.xib */,
 				506E0B0214AB1A00003E314E /* QuoteView.xib */,
+				506E0B0714AB1B41003E314E /* MindfulnessView.xib */,
 			);
 			name = xib;
 			sourceTree = "<group>";
@@ -212,6 +220,7 @@
 				506E0AC014AB09AF003E314E /* MeditationView.xib in Resources */,
 				506E0AC314AB09AF003E314E /* RockGardenView.xib in Resources */,
 				506E0B0414AB1A00003E314E /* QuoteView.xib in Resources */,
+				506E0B0914AB1B41003E314E /* MindfulnessView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -227,6 +236,7 @@
 				506E0ABA14AB09AF003E314E /* MeditationViewController.m in Sources */,
 				506E0ABD14AB09AF003E314E /* RockGardenViewController.m in Sources */,
 				506E0B0314AB1A00003E314E /* QuoteViewController.m in Sources */,
+				506E0B0814AB1B41003E314E /* MindfulnessViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
