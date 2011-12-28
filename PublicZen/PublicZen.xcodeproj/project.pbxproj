@@ -84,15 +84,8 @@
 		506E0AA914AB09AF003E314E /* PublicZen */ = {
 			isa = PBXGroup;
 			children = (
-				506E0AB214AB09AF003E314E /* PublicZenAppDelegate.h */,
-				506E0AB314AB09AF003E314E /* PublicZenAppDelegate.m */,
-				506E0AB514AB09AF003E314E /* MainWindow.xib */,
-				506E0AB814AB09AF003E314E /* FirstViewController.h */,
-				506E0AB914AB09AF003E314E /* FirstViewController.m */,
-				506E0ABB14AB09AF003E314E /* SecondViewController.h */,
-				506E0ABC14AB09AF003E314E /* SecondViewController.m */,
-				506E0ABE14AB09AF003E314E /* FirstView.xib */,
-				506E0AC114AB09AF003E314E /* SecondView.xib */,
+				506E0ACA14AB09F2003E314E /* Resources */,
+				506E0AC914AB09F0003E314E /* Classes */,
 				506E0AAA14AB09AF003E314E /* Supporting Files */,
 			);
 			path = PublicZen;
@@ -107,6 +100,53 @@
 				506E0AB014AB09AF003E314E /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		506E0AC914AB09F0003E314E /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				506E0AB214AB09AF003E314E /* PublicZenAppDelegate.h */,
+				506E0AB314AB09AF003E314E /* PublicZenAppDelegate.m */,
+				506E0AB814AB09AF003E314E /* FirstViewController.h */,
+				506E0AB914AB09AF003E314E /* FirstViewController.m */,
+				506E0ABB14AB09AF003E314E /* SecondViewController.h */,
+				506E0ABC14AB09AF003E314E /* SecondViewController.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		506E0ACA14AB09F2003E314E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				506E0ACC14AB0A00003E314E /* Sounds */,
+				506E0ACB14AB09FC003E314E /* Images */,
+				506E0ACD14AB0A0B003E314E /* xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		506E0ACB14AB09FC003E314E /* Images */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		506E0ACC14AB0A00003E314E /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Sounds;
+			sourceTree = "<group>";
+		};
+		506E0ACD14AB0A0B003E314E /* xib */ = {
+			isa = PBXGroup;
+			children = (
+				506E0AB514AB09AF003E314E /* MainWindow.xib */,
+				506E0ABE14AB09AF003E314E /* FirstView.xib */,
+				506E0AC114AB09AF003E314E /* SecondView.xib */,
+			);
+			name = xib;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
