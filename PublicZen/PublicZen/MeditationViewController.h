@@ -18,6 +18,8 @@ enum {
     UILabel *timerLabel;
     UIButton *startStopButton;
     NSTimer *meditationTimer;
+    NSInteger timerCounter;
+
 }
 
 
@@ -26,7 +28,15 @@ enum {
 @property (nonatomic, retain) NSTimer *meditationTimer;
 
 
-- (IBAction)startStopTimer:(id)sender;
-- (IBAction)meditationSettings:(id)sender;
+
+- (IBAction) startStopTimer:(id)sender;
+- (IBAction) meditationSettings:(id)sender;
+- (NSInteger) intUserSetting: (NSString *) key defaultValueIfNotSet:(NSInteger) defaultValue;
+- (void) setTheRunningTimerLabel;
+- (void) stopTimer;
+- (void) startTimer;
+- (NSString *) returnTextForLabel:(NSInteger) intValue;
+- (void) countDownMeditationTime;
+
 
 @end
