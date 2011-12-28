@@ -32,11 +32,11 @@
 }
 
 /*
-// Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
-- (void)viewDidLoad{
-    [super viewDidLoad];
-}
-*/
+ // Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
+ - (void)viewDidLoad{
+ [super viewDidLoad];
+ }
+ */
 
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation{
     // Return YES for supported orientations
@@ -61,8 +61,16 @@
 }
 
 - (void) countDownMeditationTime{
-    timerCounter --;
-    [self setTheRunningTimerLabel];
+    if (timerCounter > 1) {
+        timerCounter --;
+        [self setTheRunningTimerLabel];        
+    } else {
+        [self stopTimer];
+        [timerLabel setText:@"Finished"];
+        [startStopButton setTag:kTimerStopped];
+        [startStopButton setImage:[UIImage imageNamed:@"start.png"] forState:UIControlStateNormal];        
+    }
+
 }
 
 - (NSString *) returnTextForLabel:(NSInteger) intValue{    
@@ -78,14 +86,15 @@
 - (void) setTheRunningTimerLabel{
     NSInteger hours = timerCounter / 3600;
     NSInteger minutes = (timerCounter % 3600) / 60;
-    NSInteger seconds = (timerCounter %3600) % 60;
+    NSInteger seconds = timerCounter % 60;
     
+
     if (hours > 0){
         [timerLabel setText:[NSString stringWithFormat:@"%@:%@:%@",[self returnTextForLabel:hours],[self returnTextForLabel:minutes],[self returnTextForLabel:seconds]]];
     } else if (minutes > 0){
         [timerLabel setText:[NSString stringWithFormat:@"%@:%@",[self returnTextForLabel:minutes],[self returnTextForLabel:seconds]]];
     } else if (seconds > 0){
-        [timerLabel.text stringByAppendingFormat:@":%@",[self returnTextForLabel:seconds]];
+        [timerLabel setText:[NSString stringWithFormat:@"%@",[self returnTextForLabel:seconds]]];
     } else {
         // No time set
         NSLog(@"setTheTimerLabel: No time set");
@@ -145,6 +154,9 @@
 }
 
 - (IBAction)meditationSettings:(id)sender {
+    NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
+    [defaults setValue:[NSNumber numberWithInt:(1*10)] forKey:@"meditationTimer"];
+    [defaults synchronize];
 }
 
 
