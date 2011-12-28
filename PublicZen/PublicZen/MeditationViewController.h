@@ -17,10 +17,16 @@ enum {
 
     UILabel *timerLabel;
     UIButton *startStopButton;
+    NSTimer *meditationTimer;
 }
+
+
 @property (nonatomic, retain) IBOutlet UILabel *timerLabel;
 @property (nonatomic, retain) IBOutlet UIButton *startStopButton;
+@property (nonatomic, retain) NSTimer *meditationTimer;
+
 
 - (IBAction)startStopTimer:(id)sender;
+- (IBAction)meditationSettings:(id)sender;
 
 @end

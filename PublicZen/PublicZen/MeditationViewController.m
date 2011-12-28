@@ -12,14 +12,38 @@
 @implementation MeditationViewController
 @synthesize timerLabel;
 @synthesize startStopButton;
+@synthesize meditationTimer;
 
-/*
+- (void)dealloc
+{
+    [meditationTimer release];
+    [timerLabel release];
+    [startStopButton release];
+    [super dealloc];
+}
+
+
+
+- (void)viewDidUnload
+{
+    [self setMeditationTimer:nil];
+    [self setTimerLabel:nil];
+    [self setStartStopButton:nil];
+    [super viewDidUnload];
+    
+    // Release any retained subviews of the main view.
+    // e.g. self.myOutlet = nil;
+}
+
+
+
+
 // Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
 - (void)viewDidLoad
 {
     [super viewDidLoad];
 }
-*/
+
 
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
 {
@@ -37,40 +61,39 @@
 }
 
 
-- (void)viewDidUnload
-{
-    [self setTimerLabel:nil];
-    [self setStartStopButton:nil];
-    [super viewDidUnload];
-
-    // Release any retained subviews of the main view.
-    // e.g. self.myOutlet = nil;
-}
 
 
-- (void)dealloc
-{
-    [timerLabel release];
-    [startStopButton release];
-    [super dealloc];
-}
+
+
+
 
 - (IBAction)startStopTimer:(id)sender {
     UIButton *pressedButton = (UIButton *) sender;
-    switch (pressedButton.tag) {
-        case kTimerStopped:
-            [pressedButton setTag:kTimerStarted];
-            [pressedButton setImage:[UIImage imageNamed:@"stop.png"] forState:UIControlStateNormal];
-            break;
-            
-        case kTimerStarted:
-            [pressedButton setTag:kTimerStopped];
-            [pressedButton setImage:[UIImage imageNamed:@"start.png"] forState:UIControlStateNormal];
-            break;            
+    if (pressedButton == nil) {
+        // This should never happen.
+        NSLog(@"startStopTimer: pressedButton == nil");
         
-        default:
-            break;
+    } else {
+        switch (pressedButton.tag) {
+            case kTimerStopped:
+                [pressedButton setTag:kTimerStarted];
+                [pressedButton setImage:[UIImage imageNamed:@"stop.png"] forState:UIControlStateNormal];
+                break;
+                
+            case kTimerStarted:
+                [pressedButton setTag:kTimerStopped];
+                [pressedButton setImage:[UIImage imageNamed:@"start.png"] forState:UIControlStateNormal];
+                break;            
+                
+            default:
+                break;
+        }
     }
+    
+    pressedButton = nil;
+}
+
+- (IBAction)meditationSettings:(id)sender {
 }
 
 

@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		506A31BC14AB2F2C0024ED42 /* medBG.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 506A31BB14AB2F2C0024ED42 /* medBG.jpg */; };
+		506A31C814AB35AA0024ED42 /* settings.png in Resources */ = {isa = PBXBuildFile; fileRef = 506A31C714AB35AA0024ED42 /* settings.png */; };
 		506E0AA414AB09AF003E314E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 506E0AA314AB09AF003E314E /* UIKit.framework */; };
 		506E0AA614AB09AF003E314E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 506E0AA514AB09AF003E314E /* Foundation.framework */; };
 		506E0AA814AB09AF003E314E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 506E0AA714AB09AF003E314E /* CoreGraphics.framework */; };
@@ -29,6 +30,7 @@
 
 /* Begin PBXFileReference section */
 		506A31BB14AB2F2C0024ED42 /* medBG.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = medBG.jpg; sourceTree = "<group>"; };
+		506A31C714AB35AA0024ED42 /* settings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = settings.png; sourceTree = "<group>"; };
 		506E0A9F14AB09AF003E314E /* PublicZen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PublicZen.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		506E0AA314AB09AF003E314E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		506E0AA514AB09AF003E314E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -151,6 +153,7 @@
 				506A31BB14AB2F2C0024ED42 /* medBG.jpg */,
 				506E0B1014AB2AE4003E314E /* stop.png */,
 				506E0B1114AB2AE4003E314E /* start.png */,
+				506A31C714AB35AA0024ED42 /* settings.png */,
 			);
 			name = Images;
 			sourceTree = "<group>";
@@ -233,6 +236,7 @@
 				506E0B1214AB2AE4003E314E /* stop.png in Resources */,
 				506E0B1314AB2AE4003E314E /* start.png in Resources */,
 				506A31BC14AB2F2C0024ED42 /* medBG.jpg in Resources */,
+				506A31C814AB35AA0024ED42 /* settings.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
