@@ -1,0 +1,304 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		506E0AA414AB09AF003E314E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 506E0AA314AB09AF003E314E /* UIKit.framework */; };
+		506E0AA614AB09AF003E314E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 506E0AA514AB09AF003E314E /* Foundation.framework */; };
+		506E0AA814AB09AF003E314E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 506E0AA714AB09AF003E314E /* CoreGraphics.framework */; };
+		506E0AAE14AB09AF003E314E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 506E0AAC14AB09AF003E314E /* InfoPlist.strings */; };
+		506E0AB114AB09AF003E314E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 506E0AB014AB09AF003E314E /* main.m */; };
+		506E0AB414AB09AF003E314E /* PublicZenAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 506E0AB314AB09AF003E314E /* PublicZenAppDelegate.m */; };
+		506E0AB714AB09AF003E314E /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 506E0AB514AB09AF003E314E /* MainWindow.xib */; };
+		506E0ABA14AB09AF003E314E /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 506E0AB914AB09AF003E314E /* FirstViewController.m */; };
+		506E0ABD14AB09AF003E314E /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 506E0ABC14AB09AF003E314E /* SecondViewController.m */; };
+		506E0AC014AB09AF003E314E /* FirstView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 506E0ABE14AB09AF003E314E /* FirstView.xib */; };
+		506E0AC314AB09AF003E314E /* SecondView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 506E0AC114AB09AF003E314E /* SecondView.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		506E0A9F14AB09AF003E314E /* PublicZen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PublicZen.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		506E0AA314AB09AF003E314E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		506E0AA514AB09AF003E314E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		506E0AA714AB09AF003E314E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		506E0AAB14AB09AF003E314E /* PublicZen-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PublicZen-Info.plist"; sourceTree = "<group>"; };
+		506E0AAD14AB09AF003E314E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		506E0AAF14AB09AF003E314E /* PublicZen-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PublicZen-Prefix.pch"; sourceTree = "<group>"; };
+		506E0AB014AB09AF003E314E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		506E0AB214AB09AF003E314E /* PublicZenAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PublicZenAppDelegate.h; sourceTree = "<group>"; };
+		506E0AB314AB09AF003E314E /* PublicZenAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PublicZenAppDelegate.m; sourceTree = "<group>"; };
+		506E0AB614AB09AF003E314E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		506E0AB814AB09AF003E314E /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		506E0AB914AB09AF003E314E /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		506E0ABB14AB09AF003E314E /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		506E0ABC14AB09AF003E314E /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		506E0ABF14AB09AF003E314E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FirstView.xib; sourceTree = "<group>"; };
+		506E0AC214AB09AF003E314E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SecondView.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		506E0A9C14AB09AF003E314E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				506E0AA414AB09AF003E314E /* UIKit.framework in Frameworks */,
+				506E0AA614AB09AF003E314E /* Foundation.framework in Frameworks */,
+				506E0AA814AB09AF003E314E /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		506E0A9414AB09AF003E314E = {
+			isa = PBXGroup;
+			children = (
+				506E0AA914AB09AF003E314E /* PublicZen */,
+				506E0AA214AB09AF003E314E /* Frameworks */,
+				506E0AA014AB09AF003E314E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		506E0AA014AB09AF003E314E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				506E0A9F14AB09AF003E314E /* PublicZen.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		506E0AA214AB09AF003E314E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				506E0AA314AB09AF003E314E /* UIKit.framework */,
+				506E0AA514AB09AF003E314E /* Foundation.framework */,
+				506E0AA714AB09AF003E314E /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		506E0AA914AB09AF003E314E /* PublicZen */ = {
+			isa = PBXGroup;
+			children = (
+				506E0AB214AB09AF003E314E /* PublicZenAppDelegate.h */,
+				506E0AB314AB09AF003E314E /* PublicZenAppDelegate.m */,
+				506E0AB514AB09AF003E314E /* MainWindow.xib */,
+				506E0AB814AB09AF003E314E /* FirstViewController.h */,
+				506E0AB914AB09AF003E314E /* FirstViewController.m */,
+				506E0ABB14AB09AF003E314E /* SecondViewController.h */,
+				506E0ABC14AB09AF003E314E /* SecondViewController.m */,
+				506E0ABE14AB09AF003E314E /* FirstView.xib */,
+				506E0AC114AB09AF003E314E /* SecondView.xib */,
+				506E0AAA14AB09AF003E314E /* Supporting Files */,
+			);
+			path = PublicZen;
+			sourceTree = "<group>";
+		};
+		506E0AAA14AB09AF003E314E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				506E0AAB14AB09AF003E314E /* PublicZen-Info.plist */,
+				506E0AAC14AB09AF003E314E /* InfoPlist.strings */,
+				506E0AAF14AB09AF003E314E /* PublicZen-Prefix.pch */,
+				506E0AB014AB09AF003E314E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		506E0A9E14AB09AF003E314E /* PublicZen */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 506E0AC614AB09AF003E314E /* Build configuration list for PBXNativeTarget "PublicZen" */;
+			buildPhases = (
+				506E0A9B14AB09AF003E314E /* Sources */,
+				506E0A9C14AB09AF003E314E /* Frameworks */,
+				506E0A9D14AB09AF003E314E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PublicZen;
+			productName = PublicZen;
+			productReference = 506E0A9F14AB09AF003E314E /* PublicZen.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		506E0A9614AB09AF003E314E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Hermitage Medical Clinic";
+			};
+			buildConfigurationList = 506E0A9914AB09AF003E314E /* Build configuration list for PBXProject "PublicZen" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 506E0A9414AB09AF003E314E;
+			productRefGroup = 506E0AA014AB09AF003E314E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				506E0A9E14AB09AF003E314E /* PublicZen */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		506E0A9D14AB09AF003E314E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				506E0AAE14AB09AF003E314E /* InfoPlist.strings in Resources */,
+				506E0AB714AB09AF003E314E /* MainWindow.xib in Resources */,
+				506E0AC014AB09AF003E314E /* FirstView.xib in Resources */,
+				506E0AC314AB09AF003E314E /* SecondView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		506E0A9B14AB09AF003E314E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				506E0AB114AB09AF003E314E /* main.m in Sources */,
+				506E0AB414AB09AF003E314E /* PublicZenAppDelegate.m in Sources */,
+				506E0ABA14AB09AF003E314E /* FirstViewController.m in Sources */,
+				506E0ABD14AB09AF003E314E /* SecondViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		506E0AAC14AB09AF003E314E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				506E0AAD14AB09AF003E314E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		506E0AB514AB09AF003E314E /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				506E0AB614AB09AF003E314E /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		506E0ABE14AB09AF003E314E /* FirstView.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				506E0ABF14AB09AF003E314E /* en */,
+			);
+			name = FirstView.xib;
+			sourceTree = "<group>";
+		};
+		506E0AC114AB09AF003E314E /* SecondView.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				506E0AC214AB09AF003E314E /* en */,
+			);
+			name = SecondView.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		506E0AC414AB09AF003E314E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		506E0AC514AB09AF003E314E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		506E0AC714AB09AF003E314E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PublicZen/PublicZen-Prefix.pch";
+				INFOPLIST_FILE = "PublicZen/PublicZen-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		506E0AC814AB09AF003E314E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PublicZen/PublicZen-Prefix.pch";
+				INFOPLIST_FILE = "PublicZen/PublicZen-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		506E0A9914AB09AF003E314E /* Build configuration list for PBXProject "PublicZen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				506E0AC414AB09AF003E314E /* Debug */,
+				506E0AC514AB09AF003E314E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		506E0AC614AB09AF003E314E /* Build configuration list for PBXNativeTarget "PublicZen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				506E0AC714AB09AF003E314E /* Debug */,
+				506E0AC814AB09AF003E314E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 506E0A9614AB09AF003E314E /* Project object */;
+}
