@@ -1,52 +1,54 @@
-//
-//  SecondViewController.m
-//  PublicZen
-//
-//  Created by Dave Albert on 28/12/2011.
-//  Copyright 2011 Hermitage Medical Clinic. All rights reserved.
-//
+  //
+  //  SecondViewController.m
+  //  PublicZen
+  //
+  //  Created by Dave Albert on 28/12/2011.
+  //  Copyright 2011 Hermitage Medical Clinic. All rights reserved.
+  //
 
 #import "RockGardenViewController.h"
 
 
 @implementation RockGardenViewController
 
+#pragma mark - System
+
 /*
-// Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
-- (void)viewDidLoad
-{
-    [super viewDidLoad];
-}
-*/
+ // Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
+ - (void)viewDidLoad
+ {
+ [super viewDidLoad];
+ }
+ */
 
-- (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
-{
+- (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation{
     // Return YES for supported orientations
-    return (interfaceOrientation == UIInterfaceOrientationPortrait);
+  return (interfaceOrientation == UIInterfaceOrientationPortrait);
 }
 
 
-- (void)didReceiveMemoryWarning
-{
+- (void)didReceiveMemoryWarning{
     // Releases the view if it doesn't have a superview.
-    [super didReceiveMemoryWarning];
-    
+  [super didReceiveMemoryWarning];
+  
     // Release any cached data, images, etc. that aren't in use.
 }
 
 
-- (void)viewDidUnload
-{
-    [super viewDidUnload];
-
+- (void)viewDidUnload{
+  [super viewDidUnload];
+  
     // Release any retained subviews of the main view.
     // e.g. self.myOutlet = nil;
 }
 
 
-- (void)dealloc
-{
-    [super dealloc];
+- (void)dealloc{
+  [super dealloc];
 }
+
+#pragma mark - Supporting Methods
+
+#pragma mark - User Interaction
 
 @end
